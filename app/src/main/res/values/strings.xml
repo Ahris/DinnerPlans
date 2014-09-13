@@ -5,7 +5,7 @@
     <string name="action_settings">Settings</string>
 
     <!-- Title Page -->
-    <string name="title">Dinner Plans</string>
+    <string name="title">Dinner\nPlans</string>
     <string name="welcome_hungry">I\'m hungry!</string>
 
     <!-- Food Options -->

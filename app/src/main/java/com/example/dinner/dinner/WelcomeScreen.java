@@ -45,5 +45,6 @@ public class WelcomeScreen extends Activity {
     public void openOptionsPage(View view) {
         // Open up the options page
         Intent intent = new Intent(this, FoodOptions.class);
+        startActivity(intent);
     }
 }

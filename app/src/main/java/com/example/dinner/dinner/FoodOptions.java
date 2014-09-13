@@ -65,6 +65,7 @@ public class FoodOptions extends Activity {
 
     public void openMenu(View view) {
         // Open up the options page
-        Intent intent = new Intent(this, Menu.class);
+        Intent intent = new Intent(this, FoodMenu.class);
+        startActivity(intent);
     }
 }

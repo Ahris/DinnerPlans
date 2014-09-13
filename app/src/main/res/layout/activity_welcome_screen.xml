@@ -20,7 +20,8 @@
         android:layout_gravity="center|top"
         android:layout_marginTop="40dip"
         android:textColor="#FFFFFF"
-        android:textSize="50sp"/>
+        android:textSize="90sp"
+        android:lineSpacingExtra="-30dp"/>
 
     <Button
         android:layout_height="wrap_content"
