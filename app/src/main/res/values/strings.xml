@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dinner</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Title Page -->
+    <string name="title">Dinner Plans</string>
+    <string name="welcome_hungry">I\'m hungry!</string>
+
+    <!-- Food Options -->
+    <string name="title_activity_food_options">FoodOptions</string>
+    <string name="feed_me">Feed me!</string>
+
+    <!-- Types of Food -->
+    <string name="food_chinese">Chinese</string>
+    <string name="food_japanese">Japanese</string>
+    <string name="food_indian">Indian</string>
+    <string name="food_korean">Korean</string>
+    <string name="food_taiwanese">Taiwanese</string>
+    <string name="food_russian">Russian</string>
+    <string name="food_american">American</string>
+    <string name="food_spanish">Spanish</string>
+    <string name="food_mexican">Mexican</string>
+    <string name="food_french">French</string>
+    <string name="food_italian">Italian</string>
+    <string name="food_german">German</string>
+    <string name="food_thai">Thai</string>
+
+    <!-- Food Menu -->
+    <string name="title_activity_food_menu">FoodMenu</string>
+
+</resources>
