@@ -6,11 +6,10 @@
 
     <ImageView
         android:id="@+id/splash_image"
-        android:src="@drawable/splash_wheat"
+        android:src="@drawable/splash_white_table"
         android:scaleType="centerCrop"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-    />
+        android:layout_height="fill_parent"/>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:orientation="vertical"
@@ -30,9 +29,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|top"
-            android:layout_marginTop="30dip"
-            android:textColor="#FFFFFF"
-            android:textSize="40sp"/>
+            android:textColor="#000000"
+            android:textSize="40sp"
+            android:layout_marginBottom="10dp"/>
 
         <CheckBox android:id="@+id/checkbox_american"
             android:layout_width="wrap_content"
@@ -44,16 +43,52 @@
             android:layout_height="wrap_content"
             android:text="@string/food_chinese"
             android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_french"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_french"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_german"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_german"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_indian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_indian"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_italian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_italian"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_japanese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_japanese"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_korean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_korean"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_mexican"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_mexican"
+            android:onClick="onCheckboxClicked"/>
 
         <Button
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="@string/feed_me"
             android:onClick="openMenu"
+            android:layout_marginTop="20dip"
             android:layout_marginBottom="20dip"
             android:padding="10dip"
             android:layout_gravity="center_horizontal|bottom"
-            android:background="#33000000"/>
+            android:background="#80FFFFFF"/>
 
     </LinearLayout>
 </FrameLayout><!-- From: file:/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/layout/activity_food_options.xml -->

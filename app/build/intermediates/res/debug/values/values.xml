@@ -20,17 +20,14 @@
     <string name="food_italian">Italian</string>
     <string name="food_japanese">Japanese</string>
     <string name="food_korean">Korean</string>
-    <string name="food_mexican">mexican</string>
+    <string name="food_mexican">Mexican</string>
     <string name="food_russian">Russian</string>
-    <string name="food_spanish">spanish</string>
+    <string name="food_spanish">Spanish</string>
     <string name="food_taiwanese">Taiwanese</string>
     <string name="food_thai">Thai</string>
-    <string name="hello_world">Hello world!</string>
     <string name="title">Dinner Plans</string>
     <string name="title_activity_food_menu">FoodMenu</string>
-    <string name="title_activity_food_meny">FoodMeny</string>
     <string name="title_activity_food_options">FoodOptions</string>
-    <string name="title_activity_menu">Menu</string>
     <string name="welcome_hungry">I\'m hungry!</string>
     <!-- From: file:/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/values/styles.xml -->
     <eat-comment />

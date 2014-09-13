@@ -2,7 +2,9 @@ package com.example.dinner.dinner;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -42,67 +44,23 @@ public class FoodOptions extends Activity {
      * Saves the information of which check box is clicked
      * @param view
      */
+    // Is the view now checked?
     public void onCheckboxClicked(View view) {
-        // Is the view now checked?
         boolean checked = ((CheckBox) view).isChecked();
-        //Boolean array values
-        // Check which checkbox was clicked
-        bool[]preferences = bool[9];
-        switch(view.getId()) {
-            case R.id.checkbox_american:
-                if (checked) {
-                    bool[0]=true;
-                } else {
-                    bool[0]=false;
-                }
-                break;
-            case R.id.checkbox_chinese:
-                if (checked){
-                    bool[1]=true;
-                } else {
-                    bool[1]=false;
-                }
-                break;
-            case R.id.checkbox_french:
-                
-
-
-            <CheckBox android:id="@+id/checkbox_french"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/food_french"
-            android:onClick="onCheckboxClicked"/>
-            <CheckBox android:id="@+id/checkbox_german"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/food_german"
-            android:onClick="onCheckboxClicked"/>
-            <CheckBox android:id="@+id/checkbox_indian"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/food_indian"
-            android:onClick="onCheckboxClicked"/>
-            <CheckBox android:id="@+id/checkbox_italian"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/food_italian"
-            android:onClick="onCheckboxClicked"/>
-            <CheckBox android:id="@+id/checkbox_japanese"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/food_japanese"
-            android:onClick="onCheckboxClicked"/>
-            <CheckBox android:id="@+id/checkbox_korean"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/food_korean"
-            android:onClick="onCheckboxClicked"/>
-            <CheckBox android:id="@+id/checkbox_mexican"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/food_mexican"
-            android:onClick="onCheckboxClicked"/>
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences.Editor editor = prefs.edit();
+        if(checked) {
+            editor.putBoolean(view.getId()+"", true);
+            editor.commit();
+        }else{
+            editor.putBoolean(view.getId()+"", false);
+            editor.commit();
         }
+        //To retrieve these variables, do something like this:
+        //SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getContext());
+        //if (prefs.getBoolean(PREF_NAME, false)) {
+        //    // etc
+        //}
     }
 
     public void openMenu(View view) {

@@ -19,7 +19,7 @@ public class WelcomeScreen extends Activity {
         setContentView(R.layout.activity_welcome_screen);
 
         TextView txt = (TextView) findViewById(R.id.title);
-        Typeface font = Typeface.createFromAsset(getAssets(), "Pacifico.ttf");
+        Typeface font = Typeface.createFromAsset(getAssets(), "fonts/Pacifico.ttf");
         txt.setTypeface(font);
     }
 

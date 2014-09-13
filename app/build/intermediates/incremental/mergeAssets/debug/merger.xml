@@ -2,7 +2,11 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/assets" />
+        <source path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/assets" >
+            <file
+                name="fonts/Pacifico.ttf"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/assets/fonts/Pacifico.ttf" />
+        </source>
     </dataSet>
     <dataSet config="debug" >
         <source path="/home/ahris/AndroidStudioProjects/Dinner/app/src/debug/assets" />
