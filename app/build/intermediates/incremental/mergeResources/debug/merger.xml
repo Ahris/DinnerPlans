@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_welcome_screen"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/layout/activity_welcome_screen.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="welcome_screen"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/menu/welcome_screen.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/values-v21/styles.xml"
+                qualifiers="v21" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Material.Light" >
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp-v13" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="food_russian" >Russian
+                </string>
+                <string name="title_activity_menu" >Menu
+                </string>
+                <string name="food_chinese" >Chinese
+                </string>
+                <string name="food_german" >German
+                </string>
+                <string name="food_thai" >Thai
+                </string>
+                <string name="food_taiwanese" >Taiwanese
+                </string>
+                <string name="food_indian" >Indian
+                </string>
+                <string name="food_mexican" >mexican
+                </string>
+                <string name="title_activity_food_menu" >FoodMenu
+                </string>
+                <string name="food_american" >American
+                </string>
+                <string name="food_italian" >Italian
+                </string>
+                <string name="title" >Dinner Plans
+                </string>
+                <string name="app_name" >Dinner
+                </string>
+                <string name="food_korean" >Korean
+                </string>
+                <string name="food_japanese" >Japanese
+                </string>
+                <string name="food_french" >French
+                </string>
+                <string name="welcome_hungry" >I\'m hungry!
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="food_spanish" >spanish
+                </string>
+                <string name="title_activity_food_meny" >FoodMeny
+                </string>
+                <string name="title_activity_food_options" >FoodOptions
+                </string>
+                <string name="feed_me" >Feed me!
+                </string>
+            </file>
+            <file
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_food_options"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/layout/activity_food_options.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="food_options"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/menu/food_options.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="splash_meal"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/drawable-hdpi/splash_meal.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="menu"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/menu/menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="splash_wheat"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/drawable-hdpi/splash_wheat.jpg"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="food_menu"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/menu/food_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_food_menu"
+                path="/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/layout/activity_food_menu.xml"
+                qualifiers=""
+                type="layout" />
+        </source>
+        <source path="/home/ahris/AndroidStudioProjects/Dinner/app/build/generated/res/rs/debug" />
+        <source path="/home/ahris/AndroidStudioProjects/Dinner/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/ahris/AndroidStudioProjects/Dinner/app/src/debug/res" />
+    </dataSet>
+
+</merger>

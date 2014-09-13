@@ -1,0 +1,59 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".WelcomeScreen">
+
+    <ImageView
+        android:id="@+id/splash_image"
+        android:src="@drawable/splash_wheat"
+        android:scaleType="centerCrop"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#80FFFFFF">
+
+        <TextView
+            android:id="@+id/title"
+            android:text="@string/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="30dip"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"/>
+
+        <CheckBox android:id="@+id/checkbox_american"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_american"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/checkbox_chinese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_chinese"
+            android:onClick="onCheckboxClicked"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/feed_me"
+            android:onClick="openMenu"
+            android:layout_marginBottom="20dip"
+            android:padding="10dip"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#33000000"/>
+
+    </LinearLayout>
+</FrameLayout><!-- From: file:/home/ahris/AndroidStudioProjects/Dinner/app/src/main/res/layout/activity_food_options.xml -->
