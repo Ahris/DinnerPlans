@@ -412,7 +412,7 @@ public class SwipeListViewTouchListener implements View.OnTouchListener {
      */
     protected void reloadChoiceStateInView(View frontView, int position) {
         if (isChecked(position)) {
-            if (swipeDrawableChecked > 0) frontView.setBackgroundResource(swipeDrawableChecked);
+            if (swipeDrawableChecked > 0) frontView.setBackgroundResource(swipeDrawableUnchecked);
         } else {
             if (swipeDrawableUnchecked > 0) frontView.setBackgroundResource(swipeDrawableUnchecked);
         }

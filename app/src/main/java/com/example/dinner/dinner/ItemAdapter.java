@@ -58,6 +58,9 @@ public class ItemAdapter extends ArrayAdapter {
         }
 
         ItemRow itemdata = (ItemRow) data.get(position);
+        itemdata.setImageView(holder.icon);
+        itemdata.setTextView(holder.itemName);
+
         holder.itemName.setText(itemdata.getItemName());
         holder.icon.setImageDrawable(itemdata.getIcon());
 
